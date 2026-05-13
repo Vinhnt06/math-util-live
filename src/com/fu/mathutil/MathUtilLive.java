@@ -20,8 +20,13 @@ public class MathUtilLive {
        //expected value : 5! = 120
        // mày/ hàm ai đó viết khi chạy thực tế là mấy - actual , giả sử 120
        // if expected -- actual , hàm ngon trong tình huống này
-        System.out.println("expected 0! = actual :"+ MathUtil.getFactiorial(1));
-        
+       
+       // them code sau lan dau tien lam chuyen ay - code len sever 14:534 PM 15/3/2026
+       
+         System.out.println("expected 0! =  0 actual :"+ MathUtil.getFactiorial(1));
+         System.out.println("expected 3! = 6 actual :"+ MathUtil.getFactiorial(1));
+           System.out.println("expected 3! = 6 actual :"+ MathUtil.getFactiorial(1));
+  
     }
     
 }
