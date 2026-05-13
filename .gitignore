@@ -1,0 +1,32 @@
+# === MacOS Specific ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Files that might be created in the root of a FAT partition
+.Spotlight-V100
+.Trashes
+
+# === NetBeans Specific ===
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+# === Java/Maven/Gradle Specific ===
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# === Logs & Temp ===
+*.log
+*.tmp
+*.bak
